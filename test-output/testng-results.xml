@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="12" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="97047" started-at="2022-09-01T00:30:04 AEST" finished-at="2022-09-01T00:31:41 AEST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="97047" started-at="2022-09-01T00:30:04 AEST" finished-at="2022-09-01T00:31:41 AEST">
+      <class name="apiTest.GetAllProduct_testCases">
+        <test-method status="PASS" signature="getViewCategory_antipyretic()[pri:0, instance:apiTest.GetAllProduct_testCases@77846d2c]" name="getViewCategory_antipyretic" duration-ms="2001" started-at="2022-09-01T00:31:38 AEST" finished-at="2022-09-01T00:31:40 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getViewCategory_antipyretic -->
+      </class> <!-- apiTest.GetAllProduct_testCases -->
+      <class name="apiTest.Get_MostPurchasedProducts_TestCases">
+        <test-method status="PASS" signature="getViewCategory_antipyretic()[pri:0, instance:apiTest.Get_MostPurchasedProducts_TestCases@2641e737]" name="getViewCategory_antipyretic" duration-ms="25" started-at="2022-09-01T00:31:40 AEST" finished-at="2022-09-01T00:31:41 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getViewCategory_antipyretic -->
+      </class> <!-- apiTest.Get_MostPurchasedProducts_TestCases -->
+      <class name="admin.adminTestCases">
+        <test-method status="PASS" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:admin.adminTestCases@4cf4d528]" name="SetUp" is-config="true" duration-ms="3639" started-at="2022-09-01T00:31:14 AEST" finished-at="2022-09-01T00:31:17 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void admin.adminTestCases.addProduct() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addProduct()[pri:0, instance:admin.adminTestCases@4cf4d528]" name="addProduct" duration-ms="7537" started-at="2022-09-01T00:31:17 AEST" finished-at="2022-09-01T00:31:25 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:admin.adminTestCases@4cf4d528]" name="TearDown" is-config="true" duration-ms="687" started-at="2022-09-01T00:31:25 AEST" finished-at="2022-09-01T00:31:25 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:admin.adminTestCases@4cf4d528]" name="SetUp" is-config="true" duration-ms="3643" started-at="2022-09-01T00:31:25 AEST" finished-at="2022-09-01T00:31:29 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void admin.adminTestCases.editProduct() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="editProduct()[pri:0, instance:admin.adminTestCases@4cf4d528]" name="editProduct" duration-ms="8189" started-at="2022-09-01T00:31:29 AEST" finished-at="2022-09-01T00:31:37 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProduct -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:admin.adminTestCases@4cf4d528]" name="TearDown" is-config="true" duration-ms="1112" started-at="2022-09-01T00:31:37 AEST" finished-at="2022-09-01T00:31:38 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- admin.adminTestCases -->
+      <class name="apiTest.Get_MostViewedProducts_TestCases">
+        <test-method status="PASS" signature="getViewCategory_antipyretic()[pri:0, instance:apiTest.Get_MostViewedProducts_TestCases@4c762604]" name="getViewCategory_antipyretic" duration-ms="25" started-at="2022-09-01T00:31:40 AEST" finished-at="2022-09-01T00:31:40 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getViewCategory_antipyretic -->
+      </class> <!-- apiTest.Get_MostViewedProducts_TestCases -->
+      <class name="apiTest.Get_ViewCategory_testCase">
+        <test-method status="PASS" signature="getMostPurchasedProducts()[pri:0, instance:apiTest.Get_ViewCategory_testCase@548ad73b]" name="getMostPurchasedProducts" duration-ms="27" started-at="2022-09-01T00:31:40 AEST" finished-at="2022-09-01T00:31:40 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMostPurchasedProducts -->
+      </class> <!-- apiTest.Get_ViewCategory_testCase -->
+      <class name="user.UserTestCases">
+        <test-method status="PASS" signature="DataSetUP()[pri:0, instance:user.UserTestCases@954b04f]" name="DataSetUP" is-config="true" duration-ms="155" started-at="2022-09-01T00:30:04 AEST" finished-at="2022-09-01T00:30:04 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataSetUP -->
+        <test-method status="PASS" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:user.UserTestCases@954b04f]" name="SetUp" is-config="true" duration-ms="5250" started-at="2022-09-01T00:30:04 AEST" finished-at="2022-09-01T00:30:09 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void user.UserTestCases.AddCategoryToCart() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="AddCategoryToCart()[pri:0, instance:user.UserTestCases@954b04f]" name="AddCategoryToCart" duration-ms="9905" started-at="2022-09-01T00:30:09 AEST" finished-at="2022-09-01T00:30:19 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCategoryToCart -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:user.UserTestCases@954b04f]" name="TearDown" is-config="true" duration-ms="690" started-at="2022-09-01T00:30:19 AEST" finished-at="2022-09-01T00:30:20 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:user.UserTestCases@954b04f]" name="SetUp" is-config="true" duration-ms="4266" started-at="2022-09-01T00:30:20 AEST" finished-at="2022-09-01T00:30:24 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void user.UserTestCases.E2ETestUser() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="E2ETestUser()[pri:0, instance:user.UserTestCases@954b04f]" name="E2ETestUser" duration-ms="17034" started-at="2022-09-01T00:30:24 AEST" finished-at="2022-09-01T00:30:41 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E2ETestUser -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:user.UserTestCases@954b04f]" name="TearDown" is-config="true" duration-ms="723" started-at="2022-09-01T00:30:41 AEST" finished-at="2022-09-01T00:30:42 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:user.UserTestCases@954b04f]" name="SetUp" is-config="true" duration-ms="3992" started-at="2022-09-01T00:30:42 AEST" finished-at="2022-09-01T00:30:46 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void user.UserTestCases.ViewCategory() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ViewCategory()[pri:0, instance:user.UserTestCases@954b04f]" name="ViewCategory" duration-ms="9940" started-at="2022-09-01T00:30:46 AEST" finished-at="2022-09-01T00:30:56 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewCategory -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:user.UserTestCases@954b04f]" name="TearDown" is-config="true" duration-ms="684" started-at="2022-09-01T00:30:56 AEST" finished-at="2022-09-01T00:30:56 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:user.UserTestCases@954b04f]" name="SetUp" is-config="true" duration-ms="3824" started-at="2022-09-01T00:30:56 AEST" finished-at="2022-09-01T00:31:00 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void user.UserTestCases.ListCategories() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ListCategories()[pri:1, instance:user.UserTestCases@954b04f]" name="ListCategories" duration-ms="12630" started-at="2022-09-01T00:31:00 AEST" finished-at="2022-09-01T00:31:13 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListCategories -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:user.UserTestCases@954b04f]" name="TearDown" is-config="true" duration-ms="704" started-at="2022-09-01T00:31:13 AEST" finished-at="2022-09-01T00:31:14 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="DataTearDown()[pri:0, instance:user.UserTestCases@954b04f]" name="DataTearDown" is-config="true" duration-ms="312" started-at="2022-09-01T00:31:41 AEST" finished-at="2022-09-01T00:31:41 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataTearDown -->
+      </class> <!-- user.UserTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
