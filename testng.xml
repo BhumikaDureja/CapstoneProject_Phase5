@@ -5,10 +5,6 @@
   <classes>
       <class name="user.UserTestCases"/>
       <class name="admin.adminTestCases"/>
-      <class name="apiTest.GetAllProduct_testCases"/>
-      <class name="apiTest.Get_ViewCategory_testCase"/>
-      <class name="apiTest.Get_MostViewedProducts_TestCases"/>
-      <class name="apiTest.Get_MostPurchasedProducts_TestCases"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
