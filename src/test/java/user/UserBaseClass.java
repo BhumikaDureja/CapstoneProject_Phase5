@@ -2,6 +2,7 @@ package user;
 
 import java.lang.reflect.Method;
 import java.util.concurrent.TimeUnit;
+import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,12 +24,12 @@ public class UserBaseClass {
     
     
     @BeforeTest
-    public void DataSetUP()  {
+    public void DataSetUP() throws IOException {
     	report = new ExtentReports("ExtentReport.html");
     }
     
     @AfterTest
-    public void DataTearDown() {
+    public void DataTearDown() throws IOException {
 
 		report.flush();
 		report.close();
